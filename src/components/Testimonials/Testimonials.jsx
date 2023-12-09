@@ -7,10 +7,10 @@ export default function Testimonials() {
       <div>
         <img src={src} alt={alt} className='mx-auto w-20 rounded-full' />
       </div>
-      <div className='text-neutral-blue-700 max-w-sm mx-auto'>{body}</div>
+      <div className='mx-auto max-w-sm text-neutral-blue-700'>{body}</div>
       <div>
-        <div className='font-black font-fraunces'>{author}</div>
-        <div className='text-neutral-blue-100 text-sm'>{designation}</div>
+        <div className='font-fraunces font-black'>{author}</div>
+        <div className='text-sm text-neutral-blue-100'>{designation}</div>
       </div>
     </article>
   )
@@ -42,11 +42,11 @@ export default function Testimonials() {
   return (
     <div className='testimonials py-12 md:py-28'>
       <Container classvars='!max-w-7xl'>
-        <h2 className=' text-neutral-blue-100 font-fraunces text-xl font-bold uppercase tracking-[0.3em]'>
+        <h2 className=' font-fraunces text-xl font-bold uppercase tracking-[0.3em] text-neutral-blue-100'>
           Client Testimonials
         </h2>
 
-        <section className='testimonial-cards md:grid grid-cols-3 md:gap-8'>
+        <section className='testimonial-cards grid-cols-3 md:grid md:gap-8'>
           {data.map(({ src, alt, body, author, designation }, i) => (
             <Card
               key={i}

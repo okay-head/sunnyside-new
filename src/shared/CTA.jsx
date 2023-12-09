@@ -1,7 +1,13 @@
 import React from 'react'
 
-export default function CTA({id,children,classvars=''}) {
+export default function CTA({ id, children, classvars = '' }) {
   return (
-    <a href='#' id={id} className={`py-3 uppercase px-5 rounded-full hover:bg-[#ffffff5c] ${classvars}`}>{children}</a>
+    <a
+      href='#'
+      id={id}
+      className={`rounded-full px-5 py-3 uppercase hover:bg-[#ffffff5c] ${classvars}`}
+    >
+      {children}
+    </a>
   )
 }

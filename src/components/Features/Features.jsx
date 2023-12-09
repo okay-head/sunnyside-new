@@ -7,8 +7,16 @@ export default function Features() {
     <section className='features feature-grid'>
       {/* Both sub sections are similar in structure, use multiline editing */}
       <div className='egg order-2'>
-        <img src='/images/mobile/image-transform.jpg' alt='egg'  className='md:hidden'/>
-        <img src='/images/desktop/image-transform.jpg' alt='egg'  className='hidden md:block w-full'/>
+        <img
+          src='/images/mobile/image-transform.jpg'
+          alt='egg'
+          className='md:hidden'
+        />
+        <img
+          src='/images/desktop/image-transform.jpg'
+          alt='egg'
+          className='hidden w-full md:block'
+        />
       </div>
       <div className='order-1 grid place-items-center'>
         <Container classvars='lg:text-left'>
@@ -23,7 +31,7 @@ export default function Features() {
             <p>
               <a
                 href='#'
-                className='font-fraunces border-primary-yellow-200 rounded-sm border-b-[6px] px-2 text-sm font-bold uppercase hover:border-primary-yellow-700'
+                className='rounded-sm border-b-[6px] border-primary-yellow-200 px-2 font-fraunces text-sm font-bold uppercase hover:border-primary-yellow-700'
               >
                 Learn more
               </a>
@@ -32,8 +40,16 @@ export default function Features() {
         </Container>
       </div>
       <div className='lamp order-3'>
-        <img src='/images/mobile/image-stand-out.jpg' alt='lamp' className='md:hidden' />
-        <img src='/images/desktop/image-stand-out.jpg' alt='lamp' className='hidden md:block w-full' />
+        <img
+          src='/images/mobile/image-stand-out.jpg'
+          alt='lamp'
+          className='md:hidden'
+        />
+        <img
+          src='/images/desktop/image-stand-out.jpg'
+          alt='lamp'
+          className='hidden w-full md:block'
+        />
       </div>
       <div className='order-4 grid place-items-center'>
         <Container classvars='lg:text-left'>
@@ -48,7 +64,7 @@ export default function Features() {
             <p>
               <a
                 href='#'
-                className='font-fraunces border-primary-softred-200 rounded-sm border-b-[6px] px-2 text-sm font-bold uppercase hover:border-primary-softred-700'
+                className='rounded-sm border-b-[6px] border-primary-softred-200 px-2 font-fraunces text-sm font-bold uppercase hover:border-primary-softred-700'
               >
                 Learn more
               </a>
@@ -58,7 +74,7 @@ export default function Features() {
       </div>
 
       {/* Both sub sections are similar in structure, use multiline editing */}
-      <div className='order-5 cherry relative grid grid-rows-3'>
+      <div className='cherry relative order-5 grid grid-rows-3'>
         <div></div>
         <div></div>
         <Container>
@@ -75,7 +91,7 @@ export default function Features() {
           </div>
         </Container>
       </div>
-      <div className='order-6 orange relative grid grid-rows-3'>
+      <div className='orange relative order-6 grid grid-rows-3'>
         <div></div>
         <div></div>
         <Container>

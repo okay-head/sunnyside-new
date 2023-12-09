@@ -1,9 +1,9 @@
 // text container
-export default function Container({ children, classvars='' }) {
+export default function Container({ children, classvars = '' }) {
   return (
     <div
       id='container'
-      className={`mx-6 relative text-center max-w-md lg:mx-auto ${classvars}`}
+      className={`relative mx-6 max-w-md text-center lg:mx-auto ${classvars}`}
     >
       {children}
     </div>
