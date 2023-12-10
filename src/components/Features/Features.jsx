@@ -30,7 +30,8 @@ export default function Features() {
             </p>
             <p>
               <a
-                href='#'
+                href=''
+                onClick={(e) => e.preventDefault()}
                 className='rounded-sm border-b-[6px] border-primary-yellow-200 px-2 font-fraunces text-sm font-bold uppercase transition-all duration-300 hover:border-primary-yellow-700'
               >
                 Learn more
@@ -63,7 +64,8 @@ export default function Features() {
             </p>
             <p>
               <a
-                href='#'
+                href=''
+                onClick={(e) => e.preventDefault()}
                 className='rounded-sm border-b-[6px] border-primary-softred-200 px-2 font-fraunces text-sm font-bold uppercase transition-all duration-300 hover:border-primary-softred-700'
               >
                 Learn more

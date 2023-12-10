@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header className=' relative mx-6 flex items-center pt-6'>
       <a
-        href='#'
+        href=''
         onClick={(e) => e.preventDefault()}
         id='logo'
         className='me-auto'
