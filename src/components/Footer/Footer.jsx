@@ -12,14 +12,16 @@ export default function Footer() {
           />
           {/* <img src='/images/logo.svg' alt='logo' className='w-[192px] h-[37.15] mx-auto' /> */}
         </div>
+
+        {/* Could loop this over too. But seems like an overkill */}
         <div className='mx-auto flex w-max gap-12 font-semibold'>
-          <a href='#' className='hover:text-white'>
+          <a href='#' className=' transition-all duration-200 hover:text-white'>
             About
           </a>
-          <a href='#' className='hover:text-white'>
+          <a href='#' className=' transition-all duration-200 hover:text-white'>
             Service
           </a>
-          <a href='#' className='hover:text-white'>
+          <a href='#' className=' transition-all duration-200 hover:text-white'>
             Projects
           </a>
         </div>
