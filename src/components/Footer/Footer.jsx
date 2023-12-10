@@ -16,19 +16,22 @@ export default function Footer() {
         {/* Could loop this over too. But seems like an overkill */}
         <div className='mx-auto flex w-max gap-12 font-semibold'>
           <a
-            href='javascript:void(0);'
+            href='#'
+            onClick={(e) => e.preventDefault()}
             className=' transition-all duration-200 hover:text-white'
           >
             About
           </a>
           <a
-            href='javascript:void(0);'
+            href='#'
+            onClick={(e) => e.preventDefault()}
             className=' transition-all duration-200 hover:text-white'
           >
             Service
           </a>
           <a
-            href='javascript:void(0);'
+            href='#'
+            onClick={(e) => e.preventDefault()}
             className=' transition-all duration-200 hover:text-white'
           >
             Projects
@@ -36,22 +39,22 @@ export default function Footer() {
         </div>
         <div className='social-icons mt-6'>
           <SocialIcon
-            url='www.facebook.com'
+            network='facebook'
             bgColor='transparent'
             fgColor='hsl(167, 40%, 24%)'
           />
           <SocialIcon
-            url='www.instagram.com'
+            network='instagram'
             bgColor='transparent'
             fgColor='hsl(167, 40%, 24%)'
           />
           <SocialIcon
-            url='www.twitter.com'
+            network='twitter'
             bgColor='transparent'
             fgColor='hsl(167, 40%, 24%)'
           />
           <SocialIcon
-            url='www.pinterest.com'
+            network='pinterest'
             bgColor='transparent'
             fgColor='hsl(167, 40%, 24%)'
           />

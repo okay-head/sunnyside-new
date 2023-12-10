@@ -7,7 +7,12 @@ export default function Header() {
 
   return (
     <header className=' relative mx-6 flex items-center pt-6'>
-      <a href='javascript:void(0);' id='logo' className='me-auto'>
+      <a
+        href='#'
+        onClick={(e) => e.preventDefault()}
+        id='logo'
+        className='me-auto'
+      >
         <img src='/images/logo.svg' alt='logo' />
       </a>
       {/* mobile nav */}
