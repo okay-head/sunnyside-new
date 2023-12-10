@@ -25,8 +25,8 @@ export default function Header() {
           />
           {/* Hack for hover. Checkout later. Use border */}
           <div className='submenu absolute inset-0 top-8 z-10 hidden  h-max pt-16 group-hover:block'>
-            <div className='relative flex w-full flex-col gap-8 bg-white py-7 text-center font-bold text-neutral-blue-300'>
-              <div className='triangle absolute -top-[12%] left-[93.2%]'></div>
+            <div className='submenu-body relative mx-auto flex w-full flex-col gap-8 bg-white py-7 text-center font-bold text-neutral-blue-300'>
+              <div className='triangle absolute -top-[12%]'></div>
               {navElements.map((x, i) => (
                 <p key={i}>
                   <CTA

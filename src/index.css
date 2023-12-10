@@ -42,4 +42,10 @@
   border-bottom: 30px solid transparent;
 
   border-right: 30px solid white;
+  left: 91cqw;
+}
+
+.submenu-body {
+  width: min(20.5rem);
+  container-type: inline-size;
 }
