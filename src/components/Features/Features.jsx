@@ -31,7 +31,7 @@ export default function Features() {
             <p>
               <a
                 href='#'
-                className='transition-all duration-300 rounded-sm border-b-[6px] border-primary-yellow-200 px-2 font-fraunces text-sm font-bold uppercase hover:border-primary-yellow-700'
+                className='rounded-sm border-b-[6px] border-primary-yellow-200 px-2 font-fraunces text-sm font-bold uppercase transition-all duration-300 hover:border-primary-yellow-700'
               >
                 Learn more
               </a>
@@ -64,7 +64,7 @@ export default function Features() {
             <p>
               <a
                 href='#'
-                className='transition-all duration-300 rounded-sm border-b-[6px] border-primary-softred-200 px-2 font-fraunces text-sm font-bold uppercase hover:border-primary-softred-700'
+                className='rounded-sm border-b-[6px] border-primary-softred-200 px-2 font-fraunces text-sm font-bold uppercase transition-all duration-300 hover:border-primary-softred-700'
               >
                 Learn more
               </a>
