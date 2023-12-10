@@ -31,11 +31,6 @@
     background-image: url(/images/desktop/image-photography.jpg);
   }
 }
-
-:root {
-  --squishy: max(2rem, auto);
-}
-
 .social-icons > a:hover .social-svg-icon {
   fill: white !important;
 }

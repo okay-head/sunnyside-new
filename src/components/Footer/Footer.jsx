@@ -15,13 +15,22 @@ export default function Footer() {
 
         {/* Could loop this over too. But seems like an overkill */}
         <div className='mx-auto flex w-max gap-12 font-semibold'>
-          <a href='#' className=' transition-all duration-200 hover:text-white'>
+          <a
+            href='javascript:void(0);'
+            className=' transition-all duration-200 hover:text-white'
+          >
             About
           </a>
-          <a href='#' className=' transition-all duration-200 hover:text-white'>
+          <a
+            href='javascript:void(0);'
+            className=' transition-all duration-200 hover:text-white'
+          >
             Service
           </a>
-          <a href='#' className=' transition-all duration-200 hover:text-white'>
+          <a
+            href='javascript:void(0);'
+            className=' transition-all duration-200 hover:text-white'
+          >
             Projects
           </a>
         </div>
